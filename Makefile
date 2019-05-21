@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++11 -g
+CFLAGS = -std=c++11
 
 all: main.cpp common.o calculator.h
 	$(CC) $(CFLAGS) main.cpp common.o -o calculator_main
